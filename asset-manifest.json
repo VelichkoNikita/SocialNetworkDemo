@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/VelichkoNikita/SocialNetworkDemo.git/static/css/main.5814b413.chunk.css",
+    "main.js": "/VelichkoNikita/SocialNetworkDemo.git/static/js/main.6a11646d.chunk.js",
+    "main.js.map": "/VelichkoNikita/SocialNetworkDemo.git/static/js/main.6a11646d.chunk.js.map",
+    "runtime-main.js": "/VelichkoNikita/SocialNetworkDemo.git/static/js/runtime-main.d9a07cea.js",
+    "runtime-main.js.map": "/VelichkoNikita/SocialNetworkDemo.git/static/js/runtime-main.d9a07cea.js.map",
+    "static/js/2.1993ad5c.chunk.js": "/VelichkoNikita/SocialNetworkDemo.git/static/js/2.1993ad5c.chunk.js",
+    "static/js/2.1993ad5c.chunk.js.map": "/VelichkoNikita/SocialNetworkDemo.git/static/js/2.1993ad5c.chunk.js.map",
+    "static/css/3.2ec3dcc4.chunk.css": "/VelichkoNikita/SocialNetworkDemo.git/static/css/3.2ec3dcc4.chunk.css",
+    "static/js/3.953233db.chunk.js": "/VelichkoNikita/SocialNetworkDemo.git/static/js/3.953233db.chunk.js",
+    "static/js/3.953233db.chunk.js.map": "/VelichkoNikita/SocialNetworkDemo.git/static/js/3.953233db.chunk.js.map",
+    "static/css/4.d4aa0109.chunk.css": "/VelichkoNikita/SocialNetworkDemo.git/static/css/4.d4aa0109.chunk.css",
+    "static/js/4.0693479a.chunk.js": "/VelichkoNikita/SocialNetworkDemo.git/static/js/4.0693479a.chunk.js",
+    "static/js/4.0693479a.chunk.js.map": "/VelichkoNikita/SocialNetworkDemo.git/static/js/4.0693479a.chunk.js.map",
+    "static/js/5.6fa39983.chunk.js": "/VelichkoNikita/SocialNetworkDemo.git/static/js/5.6fa39983.chunk.js",
+    "static/js/5.6fa39983.chunk.js.map": "/VelichkoNikita/SocialNetworkDemo.git/static/js/5.6fa39983.chunk.js.map",
+    "index.html": "/VelichkoNikita/SocialNetworkDemo.git/index.html",
+    "static/css/3.2ec3dcc4.chunk.css.map": "/VelichkoNikita/SocialNetworkDemo.git/static/css/3.2ec3dcc4.chunk.css.map",
+    "static/css/4.d4aa0109.chunk.css.map": "/VelichkoNikita/SocialNetworkDemo.git/static/css/4.d4aa0109.chunk.css.map",
+    "static/css/main.5814b413.chunk.css.map": "/VelichkoNikita/SocialNetworkDemo.git/static/css/main.5814b413.chunk.css.map",
+    "static/js/2.1993ad5c.chunk.js.LICENSE.txt": "/VelichkoNikita/SocialNetworkDemo.git/static/js/2.1993ad5c.chunk.js.LICENSE.txt",
+    "static/media/5.6c00d4a8.gif": "/VelichkoNikita/SocialNetworkDemo.git/static/media/5.6c00d4a8.gif",
+    "static/media/user.834227f9.png": "/VelichkoNikita/SocialNetworkDemo.git/static/media/user.834227f9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9a07cea.js",
+    "static/js/2.1993ad5c.chunk.js",
+    "static/css/main.5814b413.chunk.css",
+    "static/js/main.6a11646d.chunk.js"
+  ]
+}
