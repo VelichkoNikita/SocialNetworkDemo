@@ -4,7 +4,8 @@ import Post from './Post/Post';
 import {Field, reduxForm} from "redux-form";
 import {maxLengthCreator, required} from "../../../utils/validators/validators";
 import {TextArea} from "../../common/FormsControls/FormsControls";
-
+import {Button_Primary} from "../../Button/CSS";
+import {v4 as uuidv4} from "uuid"
 
 const maxLength10 = maxLengthCreator(10);
 
@@ -17,7 +18,7 @@ const MyPosts = React.memo(props => {
     let postsElements =
         [...props.posts]
             .reverse()
-            .map(p => <Post message={p.message} likesCount={p.likesCount}/>);
+            .map(p => <Post key={uuidv4()} message={p.message} likesCount={p.likesCount}/>);
 
 
     let addAddPost = (values) => {
@@ -45,7 +46,7 @@ const AddPostForm = (props) => {
                        validate={[required, maxLength10]}/>
             </div>
             <div>
-                <button>Add post</button>
+                <Button_Primary mt={"6px"} mtXs={"8px"} mbXs={"8px"}>Add post</Button_Primary>
             </div>
         </form>
     )

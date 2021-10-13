@@ -1,8 +1,6 @@
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    font-family: Font1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,65 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+    font-family: 'Font1';
+    src: url('./ClearSansReg.ttf');
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('./ClearSans-Bold.ttf');
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Font2;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Font2;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Font2;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Font2;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Font2;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-family: Font1;
+    margin-bottom: 15px;
+    line-height: 1.5;
+
+}
+
+a {
+    font-size: 20px;
+    font-family: Font2;
+    margin-bottom: 15px;
+    line-height: 1.5;
+
 }

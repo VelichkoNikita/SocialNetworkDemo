@@ -6,13 +6,15 @@ import {Redirect} from "react-router-dom";
 import {Field, reduxForm} from "redux-form";
 import {TextArea} from "../common/FormsControls/FormsControls";
 import {maxLengthCreator, required} from "../../utils/validators/validators";
+import {Button_Primary} from "../Button/CSS";
+import {v4 as uuidv4} from "uuid"
 
 const Dialogs = (props) => {
 
     let state = props.dialogsPage;
 
-    let dialogsElements = state.dialogs.map(d => <DialogItem name={d.name} key={d.id} id={d.id}/>);
-    let messagesElements = state.messages.map(m => <Message message={m.message} key={m.id}/>);
+    let dialogsElements = state.dialogs.map(d => <DialogItem name={d.name}  key={uuidv4()} id={d.id}/>);
+    let messagesElements = state.messages.map(m => <Message message={m.message}  key={uuidv4()}/>);
     // let newMessageBody = state.newMessageBody;
 
     let addNewMessage = (values) => {
@@ -32,7 +34,7 @@ const Dialogs = (props) => {
                            placeholder='Enter your message'/>
                 </div>
                 <div>
-                    <button>Send</button>
+                    <Button_Primary mt={"6px"} mtXs={"10px"}>Send</Button_Primary>
                 </div>
             </form>
         )

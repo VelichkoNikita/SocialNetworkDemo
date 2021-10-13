@@ -1,6 +1,10 @@
 .userPhoto {
     width: 100px;
-    height: 100px !important
+    height: 100px !important;
+}
+
+.margin{
+    margin-bottom: 10px !important;
 }
 
 .selectedPage {
@@ -10,4 +14,19 @@
 .preloader {
     width: 32px;
     height: 32px !important
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

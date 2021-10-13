@@ -7,11 +7,17 @@ let initialState = {
         {id: 3, name: 'Aleksey'}
     ],
     messages: [
-        {id: 1, message: 'Hi'},
-        {id: 2, message: 'Wanna have sex?'},
-        {id: 3, message: 'NO'}
+        {id: 11, message: 'Hi'},
+        {id: 22, message: 'Wanna have fun?'},
+        {id: 33, message: 'NO'}
     ]
 };
+
+
+// let index = [];
+// for (let i = 4; i <= 99; i++) {
+//     index.push(i);
+// }
 
 const dialogsReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -19,7 +25,7 @@ const dialogsReducer = (state = initialState, action) => {
             let body = action.newMessageBody;
             return {
                 ...state,
-                messages: [...state.messages, {id: 4, message: body}]
+                messages: [...state.messages, {message: body}]
             };
         default:
             return state;
